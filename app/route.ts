@@ -7,3 +7,5 @@ export function GET(req: NextRequest) {
   foo(req);
   return Response.json("Hello, world!");
 }
+
+// export const runtime = "edge"; // Commenting this out make both imports work
