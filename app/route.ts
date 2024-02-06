@@ -1,4 +1,5 @@
 import { NextRequest } from "next/server";
+
 import { foo } from "foo"; // uses new NextRequest(req)
 // import { foo } from "foo/default"; // uses new NextRequest.default(req)
 
